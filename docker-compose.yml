@@ -7,7 +7,6 @@ services:
       - .env
     stdin_open: true
     tty: true
-    command: ["odooclaw-mcp"]
     # MCP stdio servers are typically launched by the MCP client process.
     # This compose service is best used for local/manual runs only.
     healthcheck:
